@@ -1,0 +1,4 @@
+node_modules/
+.envrc
+npm-debug.log
+.DS_Store

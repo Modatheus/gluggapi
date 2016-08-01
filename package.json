@@ -1,0 +1,27 @@
+{
+  "name": "gluggi-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w lib --exec 'babel-node index --presets es2015,stage-0'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.14.0",
+    "https": "^1.0.0",
+    "moment": "^2.14.1",
+    "request-promise": "4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.11.4",
+    "babel-core": "6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-0": "6.5.0",
+    "eslint": "^3.1.1",
+    "nodemon": "1.9.2"
+  }
+}
