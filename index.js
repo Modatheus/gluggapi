@@ -14,7 +14,7 @@ app.get('/api/weather', (req, res) => {
 })
 
 app.get('/api/calendar', (req, res) => {
-  calendar()
+  calendar(req.query)
     .then(response => res.json(response))
 })
 
